@@ -32,3 +32,8 @@ Route::post('/custom', [MarioController::class, 'custom']);
 Route::get('/chara', [MarioController::class, 'chara']);
 
 Route::post('/chara_result', [MarioController::class, 'chara_result']);
+
+//modelを使用してDB連携するバージョン
+Route::get('/chara2', [CharaController::class, 'chara2']);
+
+Route::post('/chara_result2', [CharaController::class, 'chara_result2']);
