@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MarioController;
+use App\Http\Controllers\CharaController;
 use Illuminate\Http\Request;
 
 /*
