@@ -12,7 +12,7 @@
 
 <h2>あなたが所持しているキャラクターを選んでください</h2>
 <br/><br/>
-<form action="{{ url('/chara_result')}}" method="post">
+<form action="{{ url('/chara_result2')}}" method="post">
 @csrf
 
 <div class="d-flex flex-wrap">

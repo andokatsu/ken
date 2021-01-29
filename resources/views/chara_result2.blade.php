@@ -9,10 +9,13 @@
 @section('content')
 <p>あなたが適正(アイテム3つ所持可能)キャラがいないコースは</p>
 
-@foreach($course as $courseList)
-{{$courseList->course_list}}
+
+
+@foreach($special as $select)
+{{$select}}
 <br>
 @endforeach
+<br>
 
 @foreach($postChara_id as $id)
 {{$id}}
