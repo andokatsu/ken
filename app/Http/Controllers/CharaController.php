@@ -23,9 +23,10 @@ class CharaController extends Controller
 
         //chara.bladeで選択されたchara_idを取得
         $postChara_id = $request->chara_id;
+        $selectCount = count($postChara_id);
 
         $special = Special_course::where('chara_id', $postChara_id)->get('course_id');
-        // dd($special);
+        dd($selectCount);
         
         
 
